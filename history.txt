@@ -1,0 +1,76 @@
+    1  # on both instances:
+    2  sudo yum install -y amazon-efs-utils
+    3  sudo mkdir /efs
+    4  sudo mount -t efs fs-yourid:/ /efs
+    5  # you can now write files into /efs and they'll be available on both your ec2 instances!
+    6  Hallo Nadine,
+    7  ich hoffe es geht dir, Max und euren Familien soweit gut. 
+    8  Werde gleich zu dem Punkt kommen...wir müssen leider schweren Herzens euren Hochzeitstermin
+    9  (14.08) absagen. Meine Hoffunung auf eine rechtzeitge Impfung wurde mir heute leider genommen. 
+   10  ls
+   11  cd Repository/
+   12  git clone 
+   13  git clone https://github.com/amitkovski/hello-world.git
+   14  cd hello-world/
+   15  ls
+   16  git checkout
+   17  git pull
+   18  git checkout -b selenium
+   19  git pull
+   20  git checkout
+   21  git push origin selenium
+   22  git checkout -b selenium
+   23  git checkout
+   24  git push
+   25  git push origin selenium
+   26  git push origin selenium
+   27  git checkout
+   28  git branch
+   29  git branch master
+   30  git branch test
+   31  git branch
+   32  git push
+   33  git push origin test
+   34  git checkout --orphan test
+   35  git checkout --orphan test2
+   36* 
+   37  git commit --allow-empty -m "init test branch"
+   38  git check
+   39  git checkout
+   40  git status
+   41  git status
+   42  git push -u origin
+   43  git push 
+   44  git push -u origin test2
+   45  git branch
+   46  git rm -rf
+   47  git rm -rf .
+   48  git push
+   49  git push test2
+   50  git branch
+   51  git push test2
+   52  git switch --orphan test3
+   53  git commit --allow-empty -m "Initial commit on orphan branch"
+   54  git push -u origin test3
+   55  mkdir helloWorld.txt
+   56  ls
+   57  git commit -m "This is a test commit"
+   58  git push test3
+   59  git push -u origin test3
+   60  ls
+   61  open helloWorld.txt/
+   62  touch 
+   63  touch helloWorld.txt/
+   64  ls
+   65  touch helloWorld.txt/
+   66  ls
+   67  git commit -m "This is a test commit part 2"
+   68  git status
+   69  git status
+   70  ls
+   71  git add helloWorld.txt
+   72  git commit -m "added text file"
+   73  ls
+   74  git push -u origin test3
+   75  git add README
+   76  history >> history.txt
